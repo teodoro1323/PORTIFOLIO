@@ -3,33 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial - Pedro Antônio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfólio - Pedro Antônio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
+            <span class="logo">Pedro Antônio</span>
             <ul>
-                <li><a href="#">Pedro Antônio</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="habilidaes.html">Habilidades</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
             </ul>
+            <button id="toggle-theme">🌞/🌜</button>
         </nav>
     </header>
 
-    <section class="content">
-        <div class="text">
-            <h1>Meu nome é Pedro Antônio</h1>
-            <p>Tenho 18 anos, sou estudante de TI no Cotemig e faço ensino médio também. Tenho diversos hobbies, um deles é pular corda, passear ao ar livre, passar tempo de qualidade com minha família e amo psitacídeos.</p>
-        </div>
-        <div class="images">
-            <div class="image-container large"><img src="https://via.placeholder.com/300x400" alt="Psitacídeo 1"></div>
-            <div class="image-container medium"><img src="https://via.placeholder.com/250x350" alt="Psitacídeo 2"></div>
-            <div class="image-container small"><img src="https://via.placeholder.com/200x300" alt="Psitacídeo 3"></div>
+    <main id="home" class="content-section">
+        <h1>Meu nome é Pedro Antônio</h1>
+        <p>Tenho 18 anos, sou estudante de TI no Cotemig e faço ensino médio também. Tenho diversos hobbies, um deles é pular corda, passear ao ar livre, passar tempo de qualidade com minha família e amo psitacídeos.</p>
+    </main>
+
+    <section id="projetos" class="content-section">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Este é um breve resumo do projeto 1, focado em desenvolvimento web.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Um projeto de design gráfico usando ferramentas modernas.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 3</h3>
+                <p>Aplicativo mobile desenvolvido com foco na usabilidade.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 4</h3>
+                <p>Um projeto de automação para casas inteligentes.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 5</h3>
+                <p>Plataforma de e-commerce com funcionalidades completas.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 6</h3>
+                <p>Desenvolvimento de um sistema de gestão empresarial.</p>
+            </div>
         </div>
     </section>
+
+    <footer id="contato" class="content-section">
+        <p>Contato: (31) 98474-1313 | pedroantonio@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
